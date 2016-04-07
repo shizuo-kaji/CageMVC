@@ -20,7 +20,7 @@ How to use:
         deformer = cmds.deformer(type='cageDeformerMVC')[0]
 
 5. Then, select a cage mesh and type the following:
-	
+
        shape=pm.selected( type="transform" )[0].getShapes()[0]
        cmds.connectAttr(shape+".outMesh", deformer+".cageMesh")
 
