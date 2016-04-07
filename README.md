@@ -21,7 +21,7 @@ How to use:
 
 5. Then, select a cage mesh and type the following:
 
-       shape=pm.selected( type="transform" )[0].getShapes()[0]
-       cmds.connectAttr(shape+".outMesh", deformer+".cageMesh")
+        shape=pm.selected( type="transform" )[0].getShapes()[0]
+        cmds.connectAttr(shape+".outMesh", deformer+".cageMesh")
 
 6. Wait for a moment, and edit the cage mesh
